@@ -1,0 +1,50 @@
+.question-heading {
+  font-size:30px;
+}
+
+.choice-text {
+  font-size:20px;
+}
+
+.score_box{
+  font-size:40px;
+
+}
+
+.choice-text{
+  font-size:22px;
+}
+.choice-container :hover{
+  background:white ;
+  color:black !important;
+
+  border-color:black !important;
+}
+
+
+.active_choice{
+  background:#e6e6e6;
+  color:black !important;
+  border-color:black;
+}
+
+.incorrect{
+  background:red !important;
+  color:white !important;
+}
+.score_text{
+  font-size:30px;
+}
+.score_button{
+  background:#e6e6e6;
+
+}
+.score_button:hover{
+  background:#7ED957;
+  transition:all ease-in .2s 1;
+  color:white;
+}
+.correct{
+  background:green !important;
+  color:white !important;
+}

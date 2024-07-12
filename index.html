@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous"/>
+    <title>Codex</title>
+    <!-- https://marcoking13.github.io/codex_remake_/ -->
+  <link href = "./public/css/landing.css" rel = "stylesheet" type = "text/css"/>
+    <link href = "./public/css/navbar.css" rel = "stylesheet" type = "text/css"/>
+      <link href = "./public/css/content.css" rel = "stylesheet" type = "text/css"/>
+        <link href = "./public/css/utility.css" rel = "stylesheet" type = "text/css"/>
+          <link href = "./public/css/sidebar.css" rel = "stylesheet" type = "text/css"/>
+            <link href = "./public/css/quiz.css" rel = "stylesheet" type = "text/css"/>
+            <link href = "./public/css/animations.css" rel = "stylesheet" type = "text/css"/>
+  </head>
+  <body class="black-geometry padding-bottom-5 overflow-x-hidden">
+
+    <h1 class="title light-green-color text-center cursive-font margin-top-10 width-100">Codex</h1>
+    <form>
+    <nav class="navbar no-padding">
+      <div class="container-fluid search-container width-100">
+
+      <div class="row search-row width-90 margin-left-5">
+
+        <div class="col-1 margin-left-5">
+            <img src = "./public/img/logo.png" class="logo width-100 margin-bottom-100 float-right relative width-50"/>
+        </div>
+
+        <div class="col-10">
+            <div class="row form-group">
+
+              <div class="col-6">
+                  <input class="codex-input egg-white-border smoky-black-background  no-box-shadow input-topic form-control width-100 white_text white_text" placeholder = "Enter Topic" />
+              </div>
+              <div class="col-3">
+                <input class="codex-input input-address  form-control width-100 egg-white-border smoky-black-background no-box-shadow white_text " placeholder = " Enter Address"/>
+             </div>
+             <div class="col-2">
+                <button type="submit" class="btn submit-button white-background smoky-black-border smoky-black-background width-100 egg-white-color no-box-shadow ">Submit</button>
+            </div>
+
+          </div>
+        </div>
+     </div>
+
+  </nav>
+</form>
+<div>
+
+<div class="container-fluid">
+  <div class="row">
+      <div class="col-1"></div>
+      <div class="col-10">
+        <div class="row tabs-container hidden margin-top-15 border-bottom-white-1px width-100" id="myTabs"></div>
+    </div>
+  </div>
+</div>
+
+
+  <div class="content-container padding-5">
+
+      <div class="youtube_container container-fluid">
+        <div class="row">
+          <div class = "col-2"></div>
+          <div class="col-8 youtube_video_container">  </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class = "col-2"></div>
+        <div class="col-8 codepen_container"></div>
+      </div>
+
+
+      <div class="quiz-container"></div>
+
+
+  </div>
+
+
+  <div class="sidebar-container side-container-left left" data = "sidebar"></div>
+  <div class="sidebar-container  side-container-right right" data = "sidebar"></div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+
+    <script src = "./public/js/utility.js"></script>
+    <script src = "./public/config/api_config.js"></script>
+    <script src = "./public/js/landing.js"></script>
+    <script src = "./public/js/content.js"></script>
+    <script src = "./public/js/quiz.js"></script>
+    <script src = "./public/js/tabs.js"></script>
+    <script src = "./public/js/sidebar.js"></script>
+    <script src = "./public/js/event_handlers.js"></script>
+    <script src = "./public/config/quiz_config.js"></script>
+    <script src = "./public/config/topic_config.js"></script>
+
+
+  </body>
+</html>
